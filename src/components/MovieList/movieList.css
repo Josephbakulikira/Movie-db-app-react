@@ -57,7 +57,7 @@
       
     display: flex;
       min-width: 350px;
-      max-height: 600px;
+      max-height: 650px;
       -webkit-box-shadow: 5px 5px 25px -1px rgba(0,0,0,0.51); 
       box-shadow: 5px 5px 25px -1px rgba(0,0,0,0.51);
       margin: 10px;

@@ -1,38 +1,101 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1d082c, #790d1f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190825, #790f21); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+span{
+  transition: all 1s;
+  cursor: pointer;
+}
+span:hover{
+transform: scale(1.2);
+color: #00ffff;
+}
+.bouton2{
+  background-color: #3e0753;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  border: none;
+  padding: 6px;
+  border-radius: 0px 20px 0px 20px;
+  transition: all 1s;
+}
+.bouton2:hover{
+border-radius: 20px 0px 20px 0px;
+transform: scale(1.1);
+
+}
+.ss{
+  margin: 15px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.popupp{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+.popupp h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+.popupp a{
+  width: 50px;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 5px;
+  border-radius: 0px 20px 0px 20px;
+  transition: all 1s;
+}
+.popupp a:hover{
+  border-radius: 20px 0px 20px 0px;
+  transform: scale(1.1);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+footer {
+  background-color: #000000;
+  color: rgb(212, 212, 212);
+  text-align: center;
+  min-height: 100px;
+  padding-bottom: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer div{
+  padding-top: 30px;
 }
+.youtube{
+  transition: all 1s;
+  padding-top: 10px; 
+  
+}
+.youtube:hover{
+  transform: scale(1.2);
+}
+.particles{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+    
+  }

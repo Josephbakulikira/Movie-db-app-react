@@ -168,6 +168,7 @@ function App() {
                 "retina_detect": false
               }
               }/>
+      <div className="App">
       <Header search={SearchHandler} HandleButtonClick={onSubmitHandler} RequestChange={updateRequestHandler} />
     
     {error!== ''? <Container>
@@ -180,6 +181,8 @@ function App() {
                 <a href='https://www.youtube.com/channel/UCjPk9YDheKst1FlAf_KSpyA'><FaYoutube className='youtube' color='red' size='3em'/></a>
                   <div>Copyright © 2020 All Rights Reserved by <a href='http://auctux.com/'>Auctux</a>.</div>
                 </footer>
+      </div>
+      
     </Fragment>
   );
 }

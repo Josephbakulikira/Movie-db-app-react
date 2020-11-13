@@ -99,3 +99,12 @@ footer div{
   height: 100%;
     
   }
+  .particles {
+    z-index: -1;
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  .App { 
+    index: 100;
+  }
